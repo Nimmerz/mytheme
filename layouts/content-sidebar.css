@@ -1,0 +1,65 @@
+/*
+ * Theme Name: my_newtheme
+ *
+ * Layout: Content-Sidebar
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+.site-main {
+	background: #fff;
+}
+.site-content .widget-area {
+	float: right;
+	overflow: hidden;
+	width: 305px;
+	margin: 2rem 9rem 2rem 2rem;
+	background: #fff;
+	background: hsl(0, 0%, 100%);
+}
+ 
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.padding-navigation {
+	position: relative;
+	max-width: 800px;
+	max-width: 100rem;
+	padding: 0 4rem;
+	margin: 0 auto;
+	}
+
+
+@media screen and (min-width: 1120px){	
+.content-area {
+	float: left;
+	margin-left: -320px;
+    padding-left: 360px;
+	padding-top: 2rem;
+	width: 90%;
+}
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.padding-navigation {
+	margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 1119px){	
+		.site-content .widget-area {
+			float: none;
+			width: auto;
+			max-width: 780px;
+			margin: 1em auto 0;
+	}
+
+}
